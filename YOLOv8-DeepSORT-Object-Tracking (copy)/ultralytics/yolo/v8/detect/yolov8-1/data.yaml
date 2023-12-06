@@ -1,0 +1,15 @@
+names:
+- '0'
+- '1'
+- '2'
+- '3'
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: yolov8-poktl
+  url: https://universe.roboflow.com/freelancer-gucsh/yolov8-poktl/dataset/1
+  version: 1
+  workspace: freelancer-gucsh
+test: ../test/images
+train: yolov8-1/train/images
+val: yolov8-1/valid/images
