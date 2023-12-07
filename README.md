@@ -1,7 +1,8 @@
 # SADEKTECH
 Kurallar:
 
-## YOLOV8 KURULUMU ÖNEMLİ NOTLAR
+## YOLOV8 ÖNEMLİ NOTLAR
+### KURULUM:
 * Conda env oluşturma python verisyonu önemli torch uyumlu olmalı:
   ```
   conda create -n yolov8 python=3.7.10
