@@ -35,6 +35,9 @@ Kurallar:
   ```
 ### DETECT:
 * Numpy versiyonumuz 1.20 bu yüzden detect işlemi için çalıştırdığımız predict.py dosyasında bulunan kodda numpy verisyonu ile ilgili bir hata aldık. Predict.py dosyası birçok class'tan işlemler gerçekleştiriyor.
+  ```
+  \YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect\deep_sort_pytorch\deep_sort\sort\detection.py
+  ```
 
 * Predict.py dosyasının bulunduğu dizine gelelim ve kodu çalıştıralım:
   ```
