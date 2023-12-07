@@ -39,7 +39,7 @@ Kurallar:
 * Predict.py dosyasının bulunduğu dizine gelelim ve kodu çalıştıralım:
   ```
   cd ...yolov8\YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect
-  python3 train.py model=yolov8l.pt data=/home/sami/YOLOv8-DeepSORT-Object-Tracking/ultralytics/yolo/v8/detect/yolov8-1/data.yaml epochs=5 imgsz=225
+  python3 predict.py model='/home/sami/YOLOv8-DeepSORT-Object-Tracking/runs/detect/train28/weights/best.pt' source="0"
   ```
 
 
