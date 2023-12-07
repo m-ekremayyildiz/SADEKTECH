@@ -25,10 +25,20 @@ Kurallar:
 * YoloV8 requirments kurulumları:
   ```
   pip install -e '.[dev]'
+  ```D:\Sadektech\yolov8\YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect\predict.py
+### TRAIN:
+* Train.py dosyasının bulunduğu dizine gelelim ve kodu çalıştıralım:
+  ```
+  cd ...yolov8\YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect
+  python3 train.py model=yolov8l.pt data=/home/sami/YOLOv8-DeepSORT-Object-Tracking/ultralytics/yolo/v8/detect/yolov8-1/data.yaml epochs=5 imgsz=225
+  ```
+### DETECT:
+* Numpy versiyonumuz 1.20 bu yüzden detect işlemi için çalıştırdığımız predict.py dosyasında bulunan kodda numpy verisyonu ile ilgili bir hata aldık. Predict.py dosyası birçok class'tan işlemler gerçekleştiriyor.
+
+* Predict.py dosyasının bulunduğu dizine gelelim ve kodu çalıştıralım:
+  ```
+  cd ...yolov8\YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect
+  python3 train.py model=yolov8l.pt data=/home/sami/YOLOv8-DeepSORT-Object-Tracking/ultralytics/yolo/v8/detect/yolov8-1/data.yaml epochs=5 imgsz=225
   ```
 
-* Train.py dosyasının içine gelip kodu çalıştıralım:
-  ```
-  sonradan eklenecek..
-  ```
 
