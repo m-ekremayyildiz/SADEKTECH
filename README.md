@@ -33,8 +33,9 @@ Kurallar:
   cd ...yolov8\YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect
   python3 train.py model=yolov8l.pt data=/home/sami/YOLOv8-DeepSORT-Object-Tracking/ultralytics/yolo/v8/detect/yolov8-1/data.yaml epochs=5 imgsz=225
   ```
+  yolov8l.pt ağırlığını kullanarak eğitim yaptık tabiki değiştirilebilir. Zamanla kendi eğittiğimiz ağırlık olacaktır.
 ### DETECT:
-* Numpy versiyonumuz 1.20 bu yüzden detect işlemi için çalıştırdığımız predict.py dosyasında bulunan kodda numpy verisyonu ile ilgili bir hata aldık. Predict.py dosyası birçok class'tan işlemler gerçekleştiriyor. detection.py ev deep_sort.py dosyalarında değişiklikler yapıldı.
+* Numpy versiyonumuz 1.20 bu yüzden detect işlemi için çalıştırdığımız predict.py dosyasında bulunan kodda numpy verisyonu ile ilgili bir hata aldık. Predict.py dosyası birçok class'tan işlemler gerçekleştiriyor. detection.py ve deep_sort.py dosyalarında değişiklikler yapıldı.
   ```
   \YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect\deep_sort_pytorch\deep_sort\sort\detection.py
    outputs.append(np.array([x1, y1, x2, y2, track_id, track_oid], dtype=np.int)) satırını
